@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/detail.css">
+
+    <link rel="stylesheet" href="./assets/css/checkbox.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+    <script src="https://kit.fontawesome.com/ac7abcd315.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+</head>
+
+<body style="">
+
+    <div id="detail-popup" class="car-detail-section-onclick">
+
+        <div id="detail-card1" class="animate__animated animate__fadeIn  onclick-detail-card1">
+
+            <div class="onclick-detail-card1-row1">
+                <h2>Finance Options</h2>
+                <i id="close-card-btn" class="fas fa-times"></i>
+            </div>
+
+            <div style="display: ;" class="onclick-detail-card1-row2">
+                <button id="onclick-detail-card1-cashBtn" class="card1-btn1">Cash</button>
+                <button id="onclick-detail-card1-loanBtn" class="card1-btn2">Loan</button>
+            </div>
+
+            <div id="onclick-detail-card1-option1" class="animate__animated animate__fadeIn">
+                <div class="onclick-detail-card1-row3">
+                    <p>Cash Price</p>
+                    <p>$48,700</p>
+                </div>
+
+                <div class="onclick-detail-card1-row4">
+                    <div class="onclick-detail-card1-column1">
+                        <p>Est. 3-year gas savings</p>
+                        <p>Price after potential savings</p>
+                    </div>
+
+                    <div class="onclick-detail-card1-column2">
+                        <p>-$3,000</p>
+                        <p>$48,700</p>
+                    </div>
+                </div>
+
+                <div class="onclick-detail-card1-row5">
+                    <p>
+                        Electric vehicles are eligible for various financial incentives and other owner benefits that
+                        are
+                        unavailable to gas cars. <a href="#">Learn more</a> about state and utility provider incentives
+                        in your area.
+                    </p>
+                </div>
+            </div>
+
+
+            <div id="onclick-detail-card1-option2" class="animate__animated animate__fadeIn">
+                <div class="onclick-detail-card1-option2-row5">
+                    <p>
+                        Finance your car purchase by paying a down payment and monthly installments until you've paid
+                        off the full price.
+                    </p>
+                </div>
+
+
+                <form action="">
+
+                    <div class="onclick-detail-card1-option2-formrow1">
+
+                        <div class="onclick-detail-card1-option2-formcolumn1">
+                            <p>Downpayment</p>
+                            <input type="text" placeholder="Downpayment">
+                        </div>
+
+                        <div class="onclick-detail-card1-option2-formcolumn2">
+                            <p>Term</p>
+                            <select name="" id="">
+                                <option value="">36 Months</option>
+                                <option value="">62 Months</option>
+                                <option value="">17 Months</option>
+                                <option value="">55 Months</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                    <div class="onclick-detail-card1-option2-formrow2">
+
+                        <div class="onclick-detail-card1-option2-formcolumn3">
+                            <p>Est. APR %</p>
+                            <input type="text" placeholder="Est. APR %">
+                        </div>
+
+                        <div class="onclick-detail-card1-option2-formcolumn4">
+                            <p>Financed Amount</p>
+                            <input type="text" placeholder="Financed Amount">
+                        </div>
+
+                    </div>
+
+
+
+                </form>
+
+
+                <div class="onclick-detail-card1-option2-row3">
+                    <p>Cash Price</p>
+                    <p>$48,700</p>
+                </div>
+
+                <div class="onclick-detail-card1-option2-row4">
+                    <div class="onclick-detail-card1-option2-column1">
+                        <p>Est. 3-year gas savings</p>
+                        <p>Price after potential savings</p>
+                    </div>
+
+                    <div class="onclick-detail-card1-option2-column2">
+                        <p>-$3,000</p>
+                        <p>$48,700</p>
+                    </div>
+                </div>
+
+                <div class="onclick-detail-card1-option2-row5">
+                    <p>
+                        Electric vehicles are eligible for various financial incentives and other owner benefits that
+                        are
+                        unavailable to gas cars. <a href="#">Learn more</a> about state and utility provider incentives
+                        in your area.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <i id="next-card-btn" class="fas fa-angle-right next-card-btn"></i>
+
+        <i id="prev-card-btn" class="fas fa-angle-left prev-card-btn"></i>
+
+        <div id="onclick-detail-card2" style="display: ;" class="animate__animated animate__fadeIn  onclick-detail-card2">
+
+            <div class="onclick-detail-card2-row1">
+                <h2>Gas Savings</h2>
+                <i id="close-card2-btn" class="fas fa-times"></i>
+            </div>
+
+            <div class="onclick-detail-card2-row2">
+
+                <div class="onclick-detail-card2-column1">
+                    <p>Estimated gas savings over 6 years $6,000</p>
+
+                    <div class="onclick-detail-card2-column1-nested">
+                        <div class="bar1"></div>
+                        <p>Model 3</p>
+                        <p>$400 Est. Electricity/yr</p>
+
+                        <div class="bar2"></div>
+                        <p>Gasoline Car</p>
+                        <p>$1,400 Est. Gas/yr</p>
+
+
+                    </div>
+
+                </div>
+
+                <div class="onclick-detail-card2-column2">
+
+                    <div class="onclick-detail-card2-column3">
+                        <p>Time Period (Year)</p>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                        </select>
+                    </div>
+
+                    <div class="onclick-detail-card2-column4">
+                        <p>Annual Mileage</p>
+                        <input type="text" placeholder="miles">
+                    </div>
+
+                    <div class="onclick-detail-card2-column5">
+                        <p>Gasoline Cost</p>
+                        <input type="text" placeholder="Gasoline Cost">
+                    </div>
+
+                    <div class="onclick-detail-card2-column6">
+                        <p>Gasoline Car Efficiency</p>
+                        <input type="text" placeholder="MPG">
+                    </div>
+
+                    <div class="onclick-detail-card2-column7">
+                        <p>Electricity Cost</p>
+                        <input type="text" placeholder="/KWh">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <div class="details-header">
+        <svg class="" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                fill="currentColor">
+            </path>
+        </svg>
+    </div>
+
+
+    <div class="detail-row1">
+
+        <div style="display: ;" class="detail-section1">
+
+            <div id="carouselExample" class="carousel slide detail-carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/car-image1.jpeg" class="d-block carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/car-image2.jpeg" class="d-block carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/car-image3.jpeg" class="d-block carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/car-image4.jpeg" class="d-block carousel-img" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <!-- <span style="border: 3px solid red;" class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <i class="fas fa-angle-left prev-carousel-btn"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <!-- <span style="border: 3px solid red;" class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <i class="fas fa-angle-right next-carousel-btn"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!-- <div style="border: 3px solid yellow;" id="detail-flex-item1" class="detail-flex-item1-row">
+                <i class="fas fa-angle-up"></i>
+                <p class="flex-item1-para1">$49,900 Vehicle Price</p>
+                <p class="flex-item1-para2">$46,900 After Potential Saving</p>
+            </div> -->
+
+
+
+        </div>
+
+
+        
+
+
+
+
+        <div class="detail-section2">
+
+            <div class="detail-mobile-img1">
+                <img src="./assets/images/car-image1.jpeg" alt="">
+            </div>
+
+
+            <div class="detail-section2-flex-item2-column1">
+                <h2>2022 Model 3</h2>
+                <p>Model 3 Performance Dual Motor <span><br></span> All-Wheel Drive</p>
+
+                <div class="detail-section2-flex-item2-row1">
+
+                    <div class="detail-section2-flex-item2-column2">
+                        <p> <span class="flex-item2-span">250</span>mi</p>
+                        <p class="mobile-flex-item2-para">Range (EPA)</p>
+                    </div>
+
+                    <div class="detail-section2-flex-item2-column3">
+                        <p> <span class="flex-item2-span">150</span> mph</p>
+                        <p class="mobile-flex-item2-para">Top Speed</p>
+                    </div>
+
+                    <div class="detail-section2-flex-item2-column4">
+                        <p> <span class="flex-item2-span">5.3</span> s</p>
+                        <p class="mobile-flex-item2-para">0-60 mph</p>
+                    </div>
+
+                </div>
+
+                <p class="flex-item2-second-para">
+                    Range figures based on testing new vehicles to EPA est. standards. Vehicle range may change
+                    depending on battery age and condition, vehicle configuration, driving style, environmental and
+                    climate conditions.
+                </p>
+
+
+            </div>
+
+            <div class="detail-section2-flex-item3-column1">
+                <h2>Vehicle Details</h2>
+                <ul>
+                    <li>Used Vehicle</li>
+                    <li>7,744 mile odometer</li>
+                    <li>VIN 5YJ3E1EC4NF262717</li>
+                </ul>
+            </div>
+
+            <div class="detail-mobile-img2">
+                <img src="./assets/images/car-image4.jpeg" alt="">
+            </div>
+
+            <div class="detail-section2-flex-item3-column2">
+                <h2>Key Features</h2>
+                <ul>
+                    <li>Used Vehicle</li>
+                    <li>7,744 mile odometer</li>
+                    <li>Performance Upgrade</li>
+                    <li>Used Vehicle</li>
+                    <li>7,744 mile odometer</li>
+                    <li>Performance Upgrade</li>
+                    <li>Used Vehicle</li>
+                    <li>7,744 mile odometer</li>
+                    <li>Performance Upgrade</li>
+                </ul>
+                <a href="#">Features Details</a>
+            </div>
+
+
+            <div class="detail-section2-flex-item3-column3">
+                <h2>Enhanced Autopilot</h2>
+                <p>Included</p>
+                <ul>
+                    <li>Used Vehicle</li>
+                    <li>7,744 mile odometer</li>
+                    <li>Performance Upgrade</li>
+                    <li>Used Vehicle</li>
+                    <li>7,744 mile odometer</li>
+                </ul>
+                <a href="#">Features Details</a>
+            </div>
+
+
+            <div class="detail-section2-flex-item3-column4">
+                <h2>Charging</h2>
+                <div class="detail-section2-flex-item3-row1">
+                    <input type="checkbox" id="trim1" name="trim" value="" />
+                    <label for="trim1"><span>Wall Connector</span></label>
+
+                    <p>$475</p>
+
+                </div>
+                <p>
+                    SAE J1772 charging adapter will be included for use with most Level 2 public charging stations
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+            <div class="detail-section2-flex-item3-column5">
+                <h2>Warranty</h2>
+
+                <div class="detail-section2-flex-item3-column5-para1">
+                    <p>Basic Vehicle Limited Warranty</p>
+                    <p>June 2026 / 50,000 total miles</p>
+                </div>
+
+                <div class="detail-section2-flex-item3-column5-para2">
+                    <p>Used Vehicle Limited Warranty</p>
+                    <p>Additional 1 year / 10,000 miles</p>
+                    <p>Begins after Basic Vehicle Limited Warranty expires</p>
+                </div>
+
+                <div class="detail-section2-flex-item3-column5-para3">
+                    <p>Battery and Drive Unit Limited Warranty</p>
+                    <p>June 2030 / 120,000 total miles</p>
+                </div>
+
+                <a href="#">Learn more</a>
+            </div>
+
+
+            <div class="detail-section2-flex-item3-column6">
+                <h2>Condition</h2>
+                <ul>
+                    <li><a href="#">Used Vehicle</a></li>
+                    <li>7,744 mile odometer</li>
+                    <li>Performance Upgrade</li>
+                    <li>Used <a href="#">Vehicle</a></li>
+                    <li><a href="#">History</a></li>
+                </ul>
+                <a class="linkBtn" href="#">Learn more</a>
+            </div>
+
+
+            <div class="detail-section2-flex-item3-column7">
+                <h2>Delivery Location</h2>
+                <p class="detail-section2-flex-item3-column7-para1">
+                    You may proceed with the order now, but a transportation fee of up to $2,500 and a delivery timeline
+                    of up to 4 weeks may apply. This will be confirmed once a delivery location is identified.
+                </p>
+                <a class="payment-link" href="#">Continue to Payment</a>
+                <p class="detail-section2-flex-item3-column7-para2">For more information on this Model 3, <a href="#">request a callback.</a></p>
+            </div>
+
+            <div id="detail-flex-item1" class="detail-flex-item1-row">
+                <i class="fas fa-angle-up"></i>
+                <div class="mobile-detail-flex-item1">
+                    <p class="flex-item1-para1">$49,900 Vehicle Price</p>
+                    <p class="flex-item1-para2">$46,900 After Potential Saving</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+
+    <script>
+
+        let detailPopup = document.querySelector("#detail-popup")
+
+        let detailPopupBtn = document.querySelector("#detail-flex-item1")
+
+        // onclick-detail-card2
+
+        let cashBtn = document.querySelector("#onclick-detail-card1-cashBtn")
+        let loanBtn = document.querySelector("#onclick-detail-card1-loanBtn")
+
+        let card1Option1 = document.querySelector("#onclick-detail-card1-option1")
+        let card2Option2 = document.querySelector("#onclick-detail-card1-option2")
+
+
+        let card1 = document.querySelector("#detail-card1")
+
+        let card2 = document.querySelector("#onclick-detail-card2")
+        let NextCardBtn = document.querySelector("#next-card-btn")
+        let prevCardBtn = document.querySelector("#prev-card-btn")
+        let closeCardBtn = document.querySelector("#close-card-btn")
+
+        let closeCard2Btn = document.querySelector("#close-card2-btn")
+
+
+
+
+
+
+
+
+        // card1Option1.style.display = "flex"
+        card2Option2.style.display = "none"
+
+        card2.style.display = "none"
+
+        prevCardBtn.style.display = "none";
+
+
+        detailPopupBtn.addEventListener('click', () => {
+            detailPopup.style.display = "flex"
+        })
+
+
+
+        loanBtn.addEventListener('click', () => {
+            loanBtn.style.backgroundColor = "white";
+            cashBtn.style.backgroundColor = "transparent";
+            card2Option2.style.display = "block";
+            card1Option1.style.display = "none";
+            // console.log(card1Option1);
+        })
+
+        cashBtn.addEventListener('click', () => {
+            loanBtn.style.backgroundColor = "transparent";
+            cashBtn.style.backgroundColor = "white";
+            card1Option1.style.display = "block";
+            card2Option2.style.display = "none";
+        })
+
+        NextCardBtn.addEventListener("click", () => {
+            card2.style.display = "flex"
+            card1.style.display = "none"
+            NextCardBtn.style.display = "none"
+            prevCardBtn.style.display = "block"
+        })
+
+        prevCardBtn.addEventListener("click", () => {
+            card2.style.display = "none"
+            card1.style.display = "flex"
+            NextCardBtn.style.display = "block"
+            prevCardBtn.style.display = "none"
+        })
+
+        closeCardBtn.addEventListener('click', () => {
+            detailPopup.style.display = "none"
+        })
+
+        closeCard2Btn.addEventListener('click', () => {
+            detailPopup.style.display = "none"
+        })
+
+
+    </script>
+
+</body>
+
+</html>

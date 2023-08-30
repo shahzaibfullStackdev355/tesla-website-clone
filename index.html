@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/ac7abcd315.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/checkbox.css">
+
+    <link rel="stylesheet" href="assets/css/colorpicker.css">
+
+    <link rel="stylesheet" href="assets/css/image-slider.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+    <nav class="nav">
+        <div class="logo">
+            <!-- <img src="./images/logo.png" alt="Logo Image"> -->
+            <svg class="" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                    fill="currentColor">
+                </path>
+            </svg>
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul id="mobile-nav-navigation" class="nav-links">
+
+            <li id="vehicle-mobile-view-link">
+                <a href="#">Vehicles <i style="display: none;" class="fas fa-angle-right navbar-mobileView-icon"></i>
+                </a>
+
+
+                <ul style="display: ;" class="vehicle-sub-menu sub-menu animate__animated animate__fadeInDown">
+
+                    <div class="sub-menu-vehiclesrow-mainrow">
+
+                        <div class="sub-menu-vehiclesrow">
+
+                            <div class="sub-menu-vehiclescolumn">
+                                <img class="vehicle-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Car 1</p>
+                                <div class="sub-menu-vehiclesrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-vehiclescolumn">
+                                <img class="vehicle-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Car 2</p>
+                                <div class="sub-menu-vehiclesrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-vehiclescolumn">
+                                <img class="vehicle-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Car 3</p>
+                                <div class="sub-menu-vehiclesrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-vehiclescolumn">
+                                <img class="vehicle-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Car 4</p>
+                                <div class="sub-menu-vehiclesrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="sub-menu-vehiclescolumn2">
+                            <a class="vehiclescolumn-links2" href="#">Link</a>
+                            <a class="vehiclescolumn-links2" href="#">Link</a>
+                            <a class="vehiclescolumn-links2" href="#">Link</a>
+                            <a class="vehiclescolumn-links2" href="#">Link</a>
+                            <a class="vehiclescolumn-links2" href="#">Link</a>
+                            <a class="vehiclescolumn-links2" href="#">Link</a>
+                            <a class="vehiclescolumn-links2" href="#">Link</a>
+                            <a class="vehiclescolumn-links2" href="#">Link</a>
+                            <a class="vehiclescolumn-links2" href="#">Link</a>
+                        </div>
+
+                    </div>
+
+
+                </ul>
+
+            </li>
+
+
+
+
+            <li id="energy-mobile-view-link">
+                <a href="#">Energy <i style="display: none;" class="fas fa-angle-right navbar-mobileView-icon"></i> </a>
+
+                <ul style="display: ;" class="energy-sub-menu sub-menu animate__animated animate__fadeInDown">
+
+                    <div class="sub-menu-energyrow-mainrow">
+
+                        <div class="sub-menu-energyrow">
+
+                            <div class="sub-menu-energycolumn">
+                                <img class="energy-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Solar 1</p>
+                                <div class="sub-menu-energyrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-energycolumn">
+                                <img class="energy-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Solar 2</p>
+                                <div class="sub-menu-energyrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-energycolumn">
+                                <img class="energy-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Solar 3</p>
+                                <div class="sub-menu-energyrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-energycolumn">
+                                <img class="energy-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Solar 4</p>
+                                <div class="sub-menu-energyrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="sub-menu-energycolumn2">
+                            <a class="energycolumn-links2" href="#">Link</a>
+                            <a class="energycolumn-links2" href="#">Link</a>
+                            <a class="energycolumn-links2" href="#">Link</a>
+                        </div>
+
+                    </div>
+
+
+                </ul>
+
+            </li>
+
+
+
+
+
+            <li id="charging-mobile-view-link">
+                <a href="#">Charging <i style="display: none;" class="fas fa-angle-right navbar-mobileView-icon"></i>
+                </a>
+
+                <ul style="display: ;" class="charging-sub-menu sub-menu animate__animated animate__fadeInDown">
+
+                    <div class="sub-menu-chargingrow-mainrow">
+
+                        <div class="sub-menu-chargingrow">
+
+                            <div class="sub-menu-chargingcolumn">
+                                <img class="charging-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Solar 1</p>
+                                <div class="sub-menu-chargingrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-chargingcolumn">
+                                <img class="charging-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Solar 2</p>
+                                <div class="sub-menu-chargingrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-chargingcolumn">
+                                <img class="charging-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Solar 3</p>
+                                <div class="sub-menu-chargingrow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="sub-menu-chargingcolumn2">
+                            <a class="chargingcolumn-links2" href="#">Link</a>
+                            <a class="chargingcolumn-links2" href="#">Link</a>
+                            <a class="chargingcolumn-links2" href="#">Link</a>
+                            <a class="chargingcolumn-links2" href="#">Link</a>
+                            <a class="chargingcolumn-links2" href="#">Link</a>
+                            <a class="chargingcolumn-links2" href="#">Link</a>
+                        </div>
+
+                    </div>
+
+
+                </ul>
+
+            </li>
+
+
+
+
+
+
+            <li id="discover-mobile-view-link">
+                <a href="#">Discover <i style="display: none;" class="fas fa-angle-right navbar-mobileView-icon"></i>
+                </a>
+
+                <ul style="display: ;" class="discover-sub-menu sub-menu animate__animated animate__fadeInDown">
+
+                    <div class="sub-menu-discoverrow-mainrow">
+
+
+                        <div class="sub-menu-discovercolumn">
+                            <p>Heading 1</p>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                        </div>
+
+                        <div class="sub-menu-discovercolumn">
+                            <p>Heading 2</p>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                        </div>
+
+                        <div class="sub-menu-discovercolumn">
+                            <p>Heading 3</p>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                            <a class="discovercolumn-links2" href="#">Link</a>
+                        </div>
+
+                    </div>
+
+
+                </ul>
+            </li>
+
+
+
+
+            <li id="shop-mobile-view-link">
+                <a href="#">Shop</a>
+
+                <ul style="display: ;" class="shop-sub-menu sub-menu animate__animated animate__fadeInDown">
+
+                    <div class="sub-menu-shoprow-mainrow">
+
+                        <div style="border-right: none!important;" class="sub-menu-shoprow">
+
+                            <div class="sub-menu-shopcolumn">
+                                <img class="shop-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Car 1</p>
+                                <div class="sub-menu-shoprow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-shopcolumn">
+                                <img class="shop-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Car 2</p>
+                                <div class="sub-menu-shoprow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-shopcolumn">
+                                <img class="shop-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Car 3</p>
+                                <div class="sub-menu-shoprow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+                            <div class="sub-menu-shopcolumn">
+                                <img class="shop-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+                                <p>Car 4</p>
+                                <div class="sub-menu-shoprow2">
+                                    <a href="">Link1</a>
+                                    <a href="">Link2</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </ul>
+
+
+            </li>
+
+
+            <li class="support-mobile-view-link" id="support-mobile-view-link"><a href="#">Support</a></li>
+            <li class="account-mobile-view-link" id="account-mobile-view-link"><a href="#">Account</a></li>
+
+
+
+
+            <!-- mobile view navbar -->
+
+            <div style="display: none;" id="mobile-vehicle" class="vehicle-mobile-column">
+
+
+                <i id="mobile-vehicleBack-icon" class="fas fa-chevron-left vehicle-mobile-icon"></i>
+
+                <p class="vehicle-mobile-heading">Vehicles</p>
+
+
+                <div class="vehicle-mobile-row">
+                    <img class="mobile-vehicle-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="vehicle-mobile-column2">
+                        <p>Car 1</p>
+                        <div class="vehicle-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="vehicle-mobile-row">
+                    <img class="mobile-vehicle-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="vehicle-mobile-column2">
+                        <p>Car 2</p>
+                        <div class="vehicle-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="vehicle-mobile-row">
+                    <img class="mobile-vehicle-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="vehicle-mobile-column2">
+                        <p>Car 3</p>
+                        <div class="vehicle-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="vehicle-mobile-row">
+                    <img class="mobile-vehicle-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="vehicle-mobile-column2">
+                        <p>Car 4</p>
+                        <div class="vehicle-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mobile-vehicle-border"></div>
+
+
+                <li class="vehicle-mobile-links"><a href="#">Support</a></li>
+                <li class="vehicle-mobile-links"><a href="#">Account</a></li>
+                <li class="vehicle-mobile-links"><a href="#">Support</a></li>
+                <li class="vehicle-mobile-links"><a href="#">Account</a></li>
+                <li class="vehicle-mobile-links"><a href="#">Support</a></li>
+                <li class="vehicle-mobile-links"><a href="#">Account</a></li>
+                <li class="vehicle-mobile-links"><a href="#">Support</a></li>
+                <li class="vehicle-mobile-links"><a href="#">Account</a></li>
+                <li class="vehicle-mobile-links"><a href="#">Support</a></li>
+                <li class="vehicle-mobile-links"><a href="#">Account</a></li>
+
+
+            </div>
+
+
+            <div style="display: none;" id="mobile-energy" class="energy-mobile-column">
+
+
+                <i id="mobile-energyBack-icon" class="fas fa-chevron-left energy-mobile-icon"></i>
+
+                <p class="energy-mobile-heading">Energy</p>
+
+
+                <div class="energy-mobile-row">
+                    <img class="mobile-energy-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="energy-mobile-column2">
+                        <p>Solar 1</p>
+                        <div class="energy-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="energy-mobile-row">
+                    <img class="mobile-energy-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="energy-mobile-column2">
+                        <p>Solar 2</p>
+                        <div class="energy-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="energy-mobile-row">
+                    <img class="mobile-energy-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="energy-mobile-column2">
+                        <p>Solar 3</p>
+                        <div class="energy-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="energy-mobile-row">
+                    <img class="mobile-energy-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="energy-mobile-column2">
+                        <p>Solar 4</p>
+                        <div class="energy-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mobile-energy-border"></div>
+
+
+                <li class="energy-mobile-links"><a href="#">Support</a></li>
+                <li class="energy-mobile-links"><a href="#">Account</a></li>
+                <li class="energy-mobile-links"><a href="#">Support</a></li>
+
+
+            </div>
+
+
+            <div style="display: none;" id="mobile-charging" class="charging-mobile-column">
+
+
+                <i id="mobile-chargingBack-icon" class="fas fa-chevron-left charging-mobile-icon"></i>
+
+                <p class="charging-mobile-heading">Charging</p>
+
+
+                <div class="charging-mobile-row">
+                    <img class="mobile-charging-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="charging-mobile-column2">
+                        <p>charging 1</p>
+                        <div class="charging-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="charging-mobile-row">
+                    <img class="mobile-charging-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="charging-mobile-column2">
+                        <p>charging 2</p>
+                        <div class="charging-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="charging-mobile-row">
+                    <img class="mobile-charging-img-nav" src="./assets/images/car2-crop.jpg" alt="">
+
+                    <div class="charging-mobile-column2">
+                        <p>charging 3</p>
+                        <div class="charging-mobile-row2">
+                            <a href="">Link1</a>
+                            <a href="">Link2</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="mobile-charging-border"></div>
+
+
+                <li class="charging-mobile-links"><a href="#">Support</a></li>
+                <li class="charging-mobile-links"><a href="#">Account</a></li>
+                <li class="charging-mobile-links"><a href="#">Support</a></li>
+                <li class="charging-mobile-links"><a href="#">Support</a></li>
+                <li class="charging-mobile-links"><a href="#">Account</a></li>
+                <li class="charging-mobile-links"><a href="#">Support</a></li>
+
+
+            </div>
+
+
+            <div style="display: none;" id="mobile-discover" class="discover-mobile-column">
+
+
+                <i id="mobile-discoverBack-icon" class="fas fa-chevron-left discover-mobile-icon"></i>
+
+                <p class="discover-mobile-heading">discover</p>
+
+
+
+                <li class="discover-mobile-links"><a href="#">Link 1</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 2</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 3</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 4</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 5</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 6</a></li>
+
+                <li class="discover-mobile-links"><a href="#">Link 7</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 8</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 9</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 10</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 11</a></li>
+                <li class="discover-mobile-links"><a href="#">Link 12</a></li>
+
+
+            </div>
+
+
+
+
+
+
+        </ul>
+
+        <ul class="nav-icons">
+            <li><a href="#"><i class="far fa-question-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-globe"></i></a></li>
+            <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+        </ul>
+
+    </nav>
+
+    <!-- nav section 2 -->
+
+    <div class="nav-section-2">
+
+
+        <div style="display: ;" class="nav-section-2-row">
+
+            <h2 class="nav-section-2-heading">Inventory</h2>
+
+            <div class="nav-section-2-flex-item1">
+                <select name="" id="">
+                    <option value="">Price: Low to High</option>
+                    <option value="">Price: High to Low</option>
+                    <option value="">Price: Low to High</option>
+                    <option value="">Price: High to Low</option>
+                    <option value="">Price: Low to High</option>
+                    <option value="">Price: High to Low</option>
+                    <option value="">Price: Low to High</option>
+                </select>
+
+                <i style=" border-right: 2px solid black;" class="fas fa-th-large grid-icon1"></i>
+
+                <i class="fas fa-grip-lines grid-icon2"></i>
+
+            </div>
+
+        </div>
+
+
+        <div style="display: ;" class="nav-section2-mobile-column">
+
+            <div class="nav-section2-mobile-row">
+                <h2 class="nav-section-2-heading">Inventory</h2>
+
+                <div>
+                    <i style=" border-right: 2px solid black;" class="fas fa-th-large grid-icon1"></i>
+
+                    <i class="fas fa-grip-lines grid-icon2"></i>
+                </div>
+
+            </div>
+
+            <div class="nav-section2-mobile-row2">
+
+                <button id="testBtn" type="click">Filter</button>
+
+                <select name="" id="">
+                    <option value="">Price: Low to High</option>
+                    <option value="">Price: High to Low</option>
+                    <option value="">Price: Low to High</option>
+                    <option value="">Price: High to Low</option>
+                    <option value="">Price: Low to High</option>
+                    <option value="">Price: High to Low</option>
+                    <option value="">Price: Low to High</option>
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- main work -->
+
+    <section class="section-1">
+
+        <div class="section1-row1">
+
+            <div id="filter-mobile-column" class="section1-column1 animate__animated animate__fadeInUp">
+
+                <div class="filter-mobile-row">
+                    <h2>Filters</h2>
+                    <i id="filter-close-icon" class="fas fa-times"></i>
+                </div>
+
+                <div class="flex-item1">
+                    <p style="font-weight: bold;">Registration Zip Code</p>
+                    <p>Where you will register the vehicle</p>
+                    <input type="search" placeholder="Enter zip Code: ">
+                </div>
+
+                <div class="flex-item2-row">
+
+                    <div class="flex-item2-column">
+                        <p>Models</p>
+
+
+                        <input type=radio id="model-1" checked class="radio-input" name="models">
+                        <label for="model-1" class="radio-label"> <span class="radio-border"></span> Model S1 </label>
+
+                        <input type=radio id="model-2" class="radio-input" name="models">
+                        <label for="model-2" class="radio-label"><span class="radio-border"></span> Model S2 </label>
+
+                        <input type=radio id="model-3" class="radio-input" name="models">
+                        <label for="model-3" class="radio-label"><span class="radio-border"></span> Model S3 </label>
+
+                        <input type=radio id="model-4" class="radio-input" name="models">
+                        <label for="model-4" class="radio-label"><span class="radio-border"></span> Model S4 </label>
+
+                    </div>
+
+                    <div class="flex-item2-column2">
+                        <p>Inventory Type</p>
+
+                        <input type=radio id="new" checked class="radio-input" name="inventory-type">
+                        <label for="new" class="radio-label"> <span class="radio-border"></span> New </label>
+
+                        <input type=radio id="used" class="radio-input" name="inventory-type">
+                        <label for="used" class="radio-label"><span class="radio-border"></span> Used </label>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="flex-item3-column">
+                    <p>Trim</p>
+
+                    <input type="checkbox" id="trim1" name="trim" value="" />
+                    <label for="trim1"><span>Performance All-Wheel Drive</span></label>
+
+                    <input type="checkbox" id="trim2" name="trim" value="" />
+                    <label for="trim2"><span>Long Range All-Wheel Drive</span></label>
+
+                    <input type="checkbox" id="trim3" name="trim" value="" />
+                    <label for="trim3"><span>Long Range Rear-Wheel Drive</span></label>
+
+                    <input type="checkbox" id="trim4" name="trim" value="" />
+                    <label for="trim4"><span>Mid Range Rear-Wheel Drive</span></label>
+
+                    <input type="checkbox" id="trim5" name="trim" value="" />
+                    <label for="trim5"><span>Model 3 Rear-Wheel Drive</span></label>
+
+                </div>
+
+                <div class="flex-item4-column">
+
+                    <p>Exterior Paint</p>
+
+                    <div class="flex-item4-row">
+
+                        <div class="round">
+                            <input class="exterior-input" type="checkbox" id="white-color" />
+                            <label class="exterior-color" for="white-color"><img src="/assets/images/while-dot.png"
+                                    alt=""></label>
+                        </div>
+
+                        <div class="round">
+                            <input class="exterior-input" type="checkbox" id="black-color" />
+                            <label class="exterior-color" for="black-color"><img src="/assets/images/black-dot.png"
+                                    alt=""></label>
+                        </div>
+
+                        <div class="round">
+                            <input class="exterior-input" type="checkbox" id="blue-color" />
+                            <label class="exterior-color" for="blue-color"><img src="/assets/images/blue-dot.png"
+                                    alt=""></label>
+                        </div>
+
+                        <div class="round">
+                            <input class="exterior-input" type="checkbox" id="red-color" />
+                            <label class="exterior-color" for="red-color"><img src="/assets/images/red-dot.png"
+                                    alt=""></label>
+                        </div>
+
+                        <div class="round">
+                            <input class="exterior-input" type="checkbox" id="grey-color" />
+                            <label class="exterior-color" for="grey-color"><img src="/assets/images/grey-dot.png"
+                                    alt=""></label>
+                        </div>
+
+
+                    </div>
+
+                    <p>Interior Paint</p>
+
+                    <div class="flex-item4-row">
+
+                        <div class="round">
+                            <input class="exterior-input" type="checkbox" id="interior-white-color" />
+                            <label class="exterior-color" for="interior-white-color"><img
+                                    src="/assets/images/while-dot.png" alt=""></label>
+                        </div>
+
+                        <div class="round">
+                            <input class="exterior-input" type="checkbox" id="interior-black-color" />
+                            <label class="exterior-color" for="interior-black-color"><img
+                                    src="/assets/images/black-dot.png" alt=""></label>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="flex-item5-column">
+                    <p>Wheels</p>
+
+                    <input type="checkbox" id="wheel1" name="wheels" value="" />
+                    <label for="wheel1"><span>Wheel 1</span></label>
+
+                    <input type="checkbox" id="wheel2" name="wheels" value="" />
+                    <label for="wheel2"><span>Wheel 2</span></label>
+
+                    <input type="checkbox" id="wheel3" name="wheels" value="" />
+                    <label for="wheel3"><span>Wheel 3</span></label>
+
+
+                </div>
+
+
+                <div class="flex-item6-column">
+                    <p>Vehicle History</p>
+
+                    <input type="checkbox" id="vehicle-history-1" name="vehicle-history" value="" />
+                    <label for="vehicle-history-1"><span>History 1</span></label>
+
+                    <input type="checkbox" id="vehicle-history-2" name="vehicle-history" value="" />
+                    <label for="vehicle-history-2"><span>History 2</span></label>
+
+
+
+                </div>
+
+                <div class="flex-item7-column">
+                    <p>Autopilot</p>
+
+                    <input type="checkbox" id="autopilot1" name="autopilot" value="" />
+                    <label for="autopilot1"><span>autopilot 1</span></label>
+
+                    <input type="checkbox" id="autopilot2" name="autopilot" value="" />
+                    <label for="autopilot2"><span>autopilot 2</span></label>
+
+                    <input type="checkbox" id="autopilot3" name="autopilot" value="" />
+                    <label for="autopilot3"><span>autopilot 3</span></label>
+
+
+                </div>
+
+
+                <div class="flex-item7-column">
+                    <p>Additional Options</p>
+
+                    <input type="checkbox" id="additional-option-1" name="additional-options" value="" />
+                    <label for="additional-option-1"><span>option 1</span></label>
+
+                    <input type="checkbox" id="additional-option-2" name="additional-options" value="" />
+                    <label for="additional-option-2"><span>option 2</span></label>
+
+                    <input type="checkbox" id="additional-option-3" name="additional-options" value="" />
+                    <label for="additional-option-3"><span>option 3</span></label>
+
+
+                </div>
+
+                <div class="flex-item7-column">
+                    <p>Model Year</p>
+
+                    <input type="checkbox" id="model-year-1" name="model-year" value="" />
+                    <label for="model-year-1"><span>Year 1</span></label>
+
+                    <input type="checkbox" id="model-year-2" name="model-year" value="" />
+                    <label for="model-year-2"><span>Year 2</span></label>
+
+                    <input type="checkbox" id="model-year-3" name="model-year" value="" />
+                    <label for="model-year-3"><span>Year 3</span></label>
+
+                    <input type="checkbox" id="model-year-4" name="model-year" value="" />
+                    <label for="model-year-4"><span>Year 4</span></label>
+
+                    <input type="checkbox" id="model-year-5" name="model-year" value="" />
+                    <label for="model-year-5"><span>Year 5</span></label>
+
+                    <input type="checkbox" id="model-year-6" name="model-year" value="" />
+                    <label for="model-year-6"><span>Year 6</span></label>
+
+
+                </div>
+
+
+                <div class="filter-mobile-btn-column">
+                    <button class="filter-btn1" type="submit">Show results</button>
+                    <button class="filter-btn2" type="reset">Clear</button>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <div id="" class="section2-column2">
+
+                <div  id="card-div" style="" class="section2-column2-row col-md-12">
+
+                
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="./assets/js/slider.js"></script>
+
+
+    <script src="./assets/js/navbar.js"></script>
+
+    <script>
+
+        let btn = document.querySelector("#testBtn")
+
+        let filterCloseIcon = document.querySelector("#filter-close-icon")
+
+        let test = document.querySelector("#filter-mobile-column")
+
+        btn.addEventListener('click', () => {
+
+            test.style.display = "flex";
+            // test.classList.add("animate__animated animate__fadeInUp");
+
+
+            console.log("clicked");
+        })
+
+        filterCloseIcon.addEventListener('click', () => {
+            test.style.display = "none";
+
+        })
+
+        id = 1
+        let a = "slider" + id
+        console.log(a);
+
+
+
+    </script>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
